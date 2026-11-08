@@ -1,4 +1,8 @@
-<h1 align="center">Shape Survivor</h1>
+<h1 align="center">● Shape Survivor ▲</h1>
+
+<p align="center">
+  <sub>▲ &nbsp; ■ &nbsp; ⬟ &nbsp; ⬢ &nbsp; ⬣ &nbsp; ◆ &nbsp; ⬠ &nbsp; ● &nbsp; ▲ &nbsp; ■ &nbsp; ⬟ &nbsp; ⬢ &nbsp; ⬣ &nbsp; ◆</sub>
+</p>
 
 <p align="center">
   <strong>A geometry bullet-hell.</strong><br>
@@ -33,6 +37,23 @@ python main.py
 - **Pickups:** health orbs restore health, and magnet stars pull in distant EXP gems.
 - **Special enemy:** a right triangle spawns every 90 seconds, a nod to its 90-degree angle.
 - **Presentation:** all visuals are drawn directly in the game window, with an *Invader Disco* soundtrack.
+
+## Enemy shapes
+
+Enemies start simple and gain a side with each tier, up to ten.
+
+| Sides | Shape | |
+| :---: | --- | :---: |
+| 3 | Triangle | ▲ |
+| 4 | Square | ■ |
+| 5 | Pentagon | ⬟ |
+| 6 | Hexagon | ⬢ |
+| 7 | Heptagon | ⬣ |
+| 8 | Octagon | ⯄ |
+| 9 | Nonagon | ◉ |
+| 10 | Decagon | ● |
+
+A **right triangle** (◣) also appears every 90 seconds.
 
 ## Built with
 
